@@ -1,0 +1,20 @@
+﻿<X3D version="3.2" height="570px" width="900px">
+ <Scene>
+  <Background skyColor="1 1 1"></Background><Viewpoint position="0 0 4"></Viewpoint>
+  <Transform id="body_0" axis="X" kp="ПКП" min="-2" max="2">
+   <Inline url="body_0.x3d"></Inline>
+   <Transform id="body_1" translation="0 1 0" rotation="0 1 0 0" axis="Y" kp="ВКП" min="-3.14" max="3.14">
+     <Inline url="body_1.x3d"></Inline>
+     <Transform id="body_2" translation="0 0 0" rotation="0 0 1 0" axis="Z" kp="ВКП" min="-0.7" max="0.7">
+       <Inline url="body_2.x3d"></Inline>
+       <Transform id="body_3" translation="2 0 0" rotation="0 0 1 0" axis="Z" kp="ВКП" min="-0.7" max="0.7">
+         <Inline url="body_3.x3d"></Inline>
+        </Transform>
+      </Transform>
+    </Transform>
+   <Transform id="body_4" translation="0 -0.5 0" rotation="1 0 0 0" axis="Z" kp="ВКП" min="-1.7" max="1.7">
+     <Inline url="body_4.x3d"></Inline>
+    </Transform>
+  </Transform>
+ </Scene>
+</X3D>

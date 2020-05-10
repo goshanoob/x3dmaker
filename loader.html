@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="scripts/checkForm.js"> </script>
+	<script src="scripts/getRequest.js"> </script>
+	<script src="scripts/sendFile.js"> </script>
+	<script src="scripts/sendToSQL.js"> </script>
+	<script src="scripts/main.js"> </script>
+	<link rel="stylesheet" href="scripts/st.css"></link>
+</head>
+<body>
+    <nav>
+        <ul class="topmenu">
+          <li><a href="index.html">INFO</a></li>
+          <li><a href="" class="down">MENU</a>
+            <ul class="submenu">
+              <li><a href="show.html">Просмотр</a></li>
+              <li><a href="loader.html">Загрузчик</a></li>
+              <!-- <li><a href="students.html">Студенты</a></li> -->
+              <li><a href="seeker.html">Отчеты</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+              <div id="content">
+                    <h4>Название модели:</h4>
+                    <input id="robotName" /><span id="checkerModelAnsw"></span>
+                    <h4>Описание робота:</h4>
+                    <div>
+                    <span>Тип робота:</span>
+                    <select id="robotType"><option>Манипулятор</option><option>Шагающий аппарат</option></select>
+                    <span>Система координат манипулятора/ноги ША:</span>
+                    <select id="CStype"><option>Полярная СК</option><option>Сферическая СК</option><option>Ангулярная СК</option><option>Цилиндрическая СК</option><option>Декартовая СК</option></select>
+                    </div>
+                    <div>
+						<span>Расположение робота:</span>
+						<select id="robotOrientation"><option>Напольное</option><option>Портальное</option><option>Настенное</option></select>
+						<span>Количество тел:</span>
+						<input id="bodysCount" type="number" value="6"/><br>
+						<span>Пространство работы робота:</span>
+						<select id="robotsFloor"><option>В горизонтальной плоскости</option><option>В вертикальной плоскости</option><option>В трёхмерном пространстве</option></select>
+                    </div>
+					<div>
+						<h4>Комментарий:</h4>
+						<textarea id="comment"></textarea>
+						<h4>Файлы для загрузки:</h4>
+						<input id="loader" type="file" accept=".x3d" multiple/>
+						<input id="chooser" value="Загрузить" type="button"/>
+						<span id="info"> </span>
+                    </div>
+					<div>
+						<h4>Внести модель в базу данных:</h4>
+						<input id="sqlsender" value="Записать" type="button"/>
+						<span id="SQLinfo"> </span>
+					   <!--  <p>Работу выполнил:</p>
+						<input id="FIO" /> -->
+                    </div>
+                    
+                    <div id="div2"></div>
+              </div>
+</body>
+</html>

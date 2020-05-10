@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="500">
+<g id="тело_0" transform="translate(150,250)">
+	<path d="m0,0 L -30,0 M-30,-20 L-30,20" stroke="black"/>
+	<path d="m-30,-20 l-8,8 m8,5 l-8,8 m8,5 l-8,8 m8,5 l-8,8" stroke="black"/>
+	<g id="тело_1" transform="translate(0,0) rotate(0)" видКП = "ВКП" осьКП="Z"  ЦМ="50,0">
+		<path d="m0,0 L 100,0" stroke="black"/>
+		<circle r="10" cx="0" cy="0" stroke="black" fill="white"/>
+		<g id="тело_2" transform="translate(100,0) rotate(0)" видКП = "ВКП" осьКП="Z">
+			<path d="m0,0 L 100,0" stroke="black"/>
+			<path d="m80,-60 l 40,0 0,20 -40,0 0,-20 40,20 m0,-20 l -40,20" stroke="black" fill="white"/>
+			<path d="m80,60 l 40,0 0,-20 -40,0 0,20 40,-20 m0,20 l -40,-20" stroke="black" fill="white"/>
+			<path d="m100,-40 l 0,80" stroke="black" />
+			<circle r="10" cx="0" cy="0" stroke="black" fill="white"/>
+			<g id="тело_3" transform="translate(200,-50) rotate(0)" видКП = "ПКП" осьКП="X">
+				<path d="m-200,0 L 0,0" stroke="black"/>
+				<g id="тело_4" transform="translate(0,0) rotate(0)" видКП = "ВКП" осьКП="Z">
+					<path d="m0,0 L 100,0" stroke="black"/>
+					<path d="m100,-10 l 0,20 10,0 m0,-20 l-10,0" stroke="black" fill="none"/>
+					<circle r="10" cx="0" cy="0" stroke="black" fill="white"/>
+				</g>
+			</g>
+			<g id="тело_5" transform="translate(200,50) rotate(0)" видКП = "ПКП" осьКП="X">
+				<path d="m-200,0 L 0,0" stroke="black"/>
+				<g id="тело_6" transform="translate(0,0) rotate(0)" видКП = "ВКП" осьКП="Z">
+					<path d="m0,0 L 100,0" stroke="black"/>
+					<path d="m100,-10 l 0,20 10,0 m0,-20 l-10,0" stroke="black" fill="none"/>
+					<circle r="10" cx="0" cy="0" stroke="black" fill="white"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+<br/>
+<span ></span>
+</body>
+</html>
+

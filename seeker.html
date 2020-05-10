@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8' />
+  <script src="scripts/getRequest.js"></script>
+  <script src="scripts/makeSeek.js"></script>
+  <link rel="stylesheet" href="scripts/st.css"></link>
+
+ </head>
+ <body> 
+    <nav>
+        <ul class="topmenu">
+          <li><a href="index.html">INFO</a></li>
+          <li><a href="" class="down">MENU</a>
+            <ul class="submenu">
+              <li><a href="show.html">Просмотр</a></li>
+              <li><a href="loader.html">Загрузчик</a></li>
+              <!-- <li><a href="students.html">Студенты</a></li> -->
+              <li><a href="seeker.html">Отчеты</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div id="content">
+          <p>
+              <label>В базе записей:</label><span id="countModel"></span></p>
+              <label>Поиск по имени:</label><input id="findModel" type="text"/>
+              
+              
+                <div id='data'></div>
+                <p> Ультимативная таблица: </p>
+              <textarea id="output"></textarea><br/>
+                <input id="clear" type="button" value="Очистить"/>
+      </div>
+  
+  </body>
+</html>

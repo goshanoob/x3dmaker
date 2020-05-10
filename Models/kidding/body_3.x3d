@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+ <X3D version="3.2">
+  <Scene><Background  skyColor="1 1 1"></Background>
+ <Inline url="XYZ.x3d"></Inline>
+<Transform scale="1 1 1" translation="0 0 0" rotation="0 0 1 0">
+<Shape><Cone bottomRadius="0.25" height="0.6"></Cone>
+<Appearance><Material diffuseColor="1 0 1"></Material></Appearance></Shape>
+</Transform>
+ </Scene>
+</X3D>
